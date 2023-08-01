@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-image: url(Batman.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+button{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: red;
+    color: black;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    font-size: 15px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: inset 1px 1px 10px,
+                      -1px -1px 10px rgb(253, 1, 1);
+}
